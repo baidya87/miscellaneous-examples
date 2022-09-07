@@ -34,6 +34,8 @@ public class ApplicationRunner {
 		for (Sports sport : sports) {
 			System.out.printf("%s ",sport);
 		}
+		System.out.println();
+		System.out.println("Ordinal value : "+Sports.HORSERIDING.ordinal());
 		
 	}
 }
